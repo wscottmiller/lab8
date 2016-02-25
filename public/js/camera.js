@@ -1,6 +1,6 @@
 function initCamera() {
   //Uncomment and fill in the correct selectors below.
-  //capture($('<Your code here>'),
+  capture($('<video>');
   //        $('<Your code here>'),
   //        $('<Your code here>'));
 }
@@ -38,4 +38,3 @@ function capture(video, canvas, snapshotButton) {
       successCallback, errorCallback);
 
 };
-
